@@ -16,6 +16,8 @@ import org.openqa.selenium.TakesScreenshot;
 import com.atf.com.base.TestBase;
 import com.sun.media.sound.InvalidFormatException;
 
+//this is Utility file which save unnecessary code
+
 public class TestUtil extends TestBase{
 	
 	public static long IMPLICIT_WAIT=20;
