@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Free Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.atf.com.ExentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Free CRM App test(failed)">
+    <classes>
+      <class name="com.atf.com.testcases.ContactPageTest">
+        <methods>
+          <include name="selectMultipleContactsTest"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atf.com.testcases.ContactPageTest -->
+    </classes>
+  </test> <!-- Free CRM App test(failed) -->
+</suite> <!-- Failed suite [Free Application Test Automation Test Suite] -->

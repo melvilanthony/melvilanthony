@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Free Application Test Automation Test Suite" duration-ms="335505" started-at="2020-03-29T12:01:47Z" finished-at="2020-03-29T12:07:23Z">
+    <groups>
+    </groups>
+    <test name="Free CRM App test" duration-ms="335505" started-at="2020-03-29T12:01:47Z" finished-at="2020-03-29T12:07:23Z">
+      <class name="com.atf.com.testcases.ContactPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="setUp" is-config="true" duration-ms="41263" started-at="2020-03-29T13:01:47Z" finished-at="2020-03-29T13:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCreateNewContact()[pri:1, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="verifyCreateNewContact" duration-ms="333" started-at="2020-03-29T13:02:28Z" finished-at="2020-03-29T13:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewContact -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="setup" is-config="true" duration-ms="736" started-at="2020-03-29T13:02:29Z" finished-at="2020-03-29T13:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="setUp" is-config="true" duration-ms="34761" started-at="2020-03-29T13:03:04Z" finished-at="2020-03-29T13:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="selectMultipleContactsTest()[pri:2, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="selectMultipleContactsTest" duration-ms="20480" started-at="2020-03-29T13:03:39Z" finished-at="2020-03-29T13:04:00Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='ara pie']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-LOD61PF', ip: '192.168.8.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\JACOB'~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d6f542c5dbc7e4da20a710d1e92c6faa
+*** Element info: {Using=xpath, value=//a[text()='ara pie']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='ara pie']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-LOD61PF', ip: '192.168.8.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\JACOB'~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d6f542c5dbc7e4da20a710d1e92c6faa
+*** Element info: {Using=xpath, value=//a[text()='ara pie']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at com.atf.com.pages.ContactPage.selectContactsByName(ContactPage.java:62)
+	at com.atf.com.testcases.ContactPageTest.selectMultipleContactsTest(ContactPageTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMultipleContactsTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="setup" is-config="true" duration-ms="737" started-at="2020-03-29T13:04:00Z" finished-at="2020-03-29T13:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="setUp" is-config="true" duration-ms="35914" started-at="2020-03-29T13:04:36Z" finished-at="2020-03-29T13:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="validateCreateNewContact" duration-ms="2320" started-at="2020-03-29T13:05:12Z" data-provider="getCRMTestData" finished-at="2020-03-29T13:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Melvil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rebello]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fidility]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="setup" is-config="true" duration-ms="720" started-at="2020-03-29T13:05:15Z" finished-at="2020-03-29T13:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="setUp" is-config="true" duration-ms="33316" started-at="2020-03-29T13:05:15Z" finished-at="2020-03-29T13:05:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="validateCreateNewContact" duration-ms="2227" started-at="2020-03-29T13:05:49Z" data-provider="getCRMTestData" finished-at="2020-03-29T13:05:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prof.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Melroy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rebello]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Captain]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="setup" is-config="true" duration-ms="732" started-at="2020-03-29T13:05:51Z" finished-at="2020-03-29T13:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="setUp" is-config="true" duration-ms="33075" started-at="2020-03-29T13:05:52Z" finished-at="2020-03-29T13:06:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="validateCreateNewContact" duration-ms="2066" started-at="2020-03-29T13:06:25Z" data-provider="getCRMTestData" finished-at="2020-03-29T13:06:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mallet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rebello]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Naval]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="setup" is-config="true" duration-ms="720" started-at="2020-03-29T13:06:27Z" finished-at="2020-03-29T13:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="setUp" is-config="true" duration-ms="32778" started-at="2020-03-29T13:06:28Z" finished-at="2020-03-29T13:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="validateCreateNewContact" duration-ms="1969" started-at="2020-03-29T13:07:00Z" data-provider="getCRMTestData" finished-at="2020-03-29T13:07:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mildried]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rebello]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Terna]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atf.com.testcases.ContactPageTest@3b2da18f]" name="setup" is-config="true" duration-ms="713" started-at="2020-03-29T13:07:02Z" finished-at="2020-03-29T13:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.atf.com.testcases.ContactPageTest -->
+      <class name="com.atf.com.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atf.com.testcases.HomePageTest@5906ebcb]" name="setUp" is-config="true" duration-ms="20206" started-at="2020-03-29T13:02:30Z" finished-at="2020-03-29T13:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageloginUserNameTest()[pri:1, instance:com.atf.com.testcases.HomePageTest@5906ebcb]" name="homePageloginUserNameTest" duration-ms="61" started-at="2020-03-29T13:02:50Z" finished-at="2020-03-29T13:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageloginUserNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atf.com.testcases.HomePageTest@5906ebcb]" name="tearDown" is-config="true" duration-ms="758" started-at="2020-03-29T13:02:50Z" finished-at="2020-03-29T13:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atf.com.testcases.HomePageTest@5906ebcb]" name="setUp" is-config="true" duration-ms="19310" started-at="2020-03-29T13:04:00Z" finished-at="2020-03-29T13:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactlinkTest()[pri:2, instance:com.atf.com.testcases.HomePageTest@5906ebcb]" name="verifyContactlinkTest" duration-ms="140" started-at="2020-03-29T13:04:20Z" finished-at="2020-03-29T13:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactlinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atf.com.testcases.HomePageTest@5906ebcb]" name="tearDown" is-config="true" duration-ms="844" started-at="2020-03-29T13:04:20Z" finished-at="2020-03-29T13:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.atf.com.testcases.HomePageTest -->
+      <class name="com.atf.com.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atf.com.testcases.LoginPageTest@258e2e41]" name="setUp" is-config="true" duration-ms="12898" started-at="2020-03-29T13:02:51Z" finished-at="2020-03-29T13:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="crmLoginImgtest()[pri:1, instance:com.atf.com.testcases.LoginPageTest@258e2e41]" name="crmLoginImgtest" duration-ms="158" started-at="2020-03-29T13:03:03Z" finished-at="2020-03-29T13:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmLoginImgtest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atf.com.testcases.LoginPageTest@258e2e41]" name="tearDown" is-config="true" duration-ms="749" started-at="2020-03-29T13:03:04Z" finished-at="2020-03-29T13:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atf.com.testcases.LoginPageTest@258e2e41]" name="setUp" is-config="true" duration-ms="14287" started-at="2020-03-29T13:04:21Z" finished-at="2020-03-29T13:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifycrmTitleTest()[pri:2, instance:com.atf.com.testcases.LoginPageTest@258e2e41]" name="verifycrmTitleTest" duration-ms="9" started-at="2020-03-29T13:04:35Z" finished-at="2020-03-29T13:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycrmTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atf.com.testcases.LoginPageTest@258e2e41]" name="tearDown" is-config="true" duration-ms="722" started-at="2020-03-29T13:04:35Z" finished-at="2020-03-29T13:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atf.com.testcases.LoginPageTest@258e2e41]" name="setUp" is-config="true" duration-ms="13290" started-at="2020-03-29T13:07:03Z" finished-at="2020-03-29T13:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginBtntest()[pri:3, instance:com.atf.com.testcases.LoginPageTest@258e2e41]" name="verifyLoginBtntest" duration-ms="5627" started-at="2020-03-29T13:07:16Z" finished-at="2020-03-29T13:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtntest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.atf.com.testcases.LoginPageTest@258e2e41]" name="tearDown" is-config="true" duration-ms="746" started-at="2020-03-29T13:07:22Z" finished-at="2020-03-29T13:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.atf.com.testcases.LoginPageTest -->
+    </test> <!-- Free CRM App test -->
+  </suite> <!-- Free Application Test Automation Test Suite -->
+</testng-results>
